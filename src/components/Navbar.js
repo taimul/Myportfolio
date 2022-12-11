@@ -14,7 +14,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+import { CgFileDocument, CgMail } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -98,7 +98,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <CgMail
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Contact

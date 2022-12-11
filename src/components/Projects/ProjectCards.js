@@ -15,22 +15,27 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
-          GitHub client
-          {/* {props.isBlog ? "Blog" : "GitHub"} */}
-        </Button>
-        <Button className="m-2" variant="primary" href={props.ghLink2} target="_blank">
-          <BsGithub /> &nbsp;
-          GitHub server
+          GitHub Client
           {/* {props.isBlog ? "Blog" : "GitHub"} */}
         </Button>
         {"\n"}
         {"\n"}
 
+        {props.ghLin2 ? <Button className="m-2" variant="danger" href={props.ghLink2} target="_blank">
+          <BsGithub /> &nbsp;
+          GitHub Server
+
+        </Button> : <p></p>}
+        {/* <Button className="m-2" variant="primary" href={props.ghLink2} target="_blank">
+          <BsGithub /> &nbsp;
+          GitHub Server
+          
+        </Button> */}
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
           <Button
-            variant="primary"
+            variant="success"
             href={props.demoLink}
             target="_blank"
             style={{ marginLeft: "10px" }}
@@ -39,6 +44,10 @@ function ProjectCards(props) {
             {"LiveLink"}
           </Button>
         )}
+        {/* <Button className="mx-2" variant="primary" href={props.ghLink} target="_blank">
+          <BsGithub /> &nbsp;
+          Read More
+        </Button> */}
       </Card.Body>
     </Card>
   );
