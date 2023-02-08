@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="http://soumya-jit.tech/" target="_blank">Taimul Haque</a>
+  <a href="https://meek-platypus-4f2b59.netlify.app/" target="_blank">Taimul Haque</a>
 </h2>
 
 
