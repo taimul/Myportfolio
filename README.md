@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website <br/>
-  <a href="https://meek-platypus-4f2b59.netlify.app/" target="_blank">Taimul Haque</a>
+  <a href="https://taimulportfolio.netlify.app" target="_blank">Taimul Haque</a>
 </h2>
 
 
@@ -13,7 +13,7 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio <a href="https://meek-platypus-4f2b59.netlify.app/" target="_blank">Taimul | Portfolio</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://taimulportfolio.netlify.app/" target="_blank">Taimul | Portfolio</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
